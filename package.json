@@ -1,0 +1,27 @@
+{
+  "name": "browserify-imgify",
+  "version": "0.0.1",
+  "description": "browseerify image transform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digijin/browserify-imgify.git"
+  },
+  "author": "digijin <james@digijin.com> (https://github.com/digijin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digijin/browserify-imgify/issues"
+  },
+  "homepage": "https://github.com/digijin/browserify-imgify",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1"
+  },
+  "dependencies": {
+    "through2": "^0.6.5",
+    "underscore": "^1.8.3"
+  }
+}
