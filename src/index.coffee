@@ -7,12 +7,12 @@ fs = require 'fs'
 defaults =
   ext: ['.png', '.jpg', '.jpeg', '.gif']
 
-module.exports = return (file) ->
+module.exports = (file) ->
   unless path.extname(file) in defaults.ext
     return t2()
   t2.obj (data, enc, cb) ->
-#data given from t2 is shit for some reason
-# getting file direct from FS
+    #data given from t2 is shit for some reason
+    # getting file direct from FS
     self = @
     fs.readFile file, (err, data) ->
 
